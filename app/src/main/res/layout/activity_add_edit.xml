@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gali.apps.movielibrary.AddEditActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="12"
+        android:background="#f8c899"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                app:srcCompat="@drawable/closedeye"
+                android:id="@+id/watchedIV"
+                android:layout_weight="2"
+                android:layout_height="60dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/subjectET"
+                android:hint="@string/subjectETHint"
+                android:layout_weight="8"
+                android:ellipsize="end" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/bodyET"
+            android:hint="@string/bodyETHint"
+            android:layout_weight="4"
+            android:gravity="top|left|center_vertical" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="10">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_weight="6"
+                android:id="@+id/urlET"
+                android:hint="@string/urlETHint" />
+
+            <Button
+                android:text="@string/showURLBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/showURLBtn"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/camera"
+                android:id="@+id/cameraIV"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/urlImgIV"
+            android:layout_weight="4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:elevation="1dp"
+            android:layout_weight="1">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rateRB"
+                android:layout_weight="1"
+                android:numStars="10"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:isIndicator="false" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ok"
+                android:id="@+id/okBtn"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cancel"
+                android:id="@+id/cancelBtn"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

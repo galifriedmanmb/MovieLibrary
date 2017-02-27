@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_internet_movie_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.gali.apps.movielibrary.InternetMovieSearchActivity"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/searchET"
+            android:layout_weight="4"
+            android:hint="search" />
+
+        <Button
+            android:text="@string/goBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/goBtn"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/searchResultsLV"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:text="@string/cancelSearchBtn"
+        android:layout_width="match_parent"
+        android:id="@+id/cancelSearchBtn"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

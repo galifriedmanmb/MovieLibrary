@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/editMovieCMI"
+        android:id="@+id/editMovieCMI" />
+    <item android:title="@string/deleteMovieCMI"
+        android:id="@+id/deleteMovieCMI" />
+    <item android:title="@string/shareMovieCMI"
+        android:id="@+id/shareMovieCMI"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+
+</menu>

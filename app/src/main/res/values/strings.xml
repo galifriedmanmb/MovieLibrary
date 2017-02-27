@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MovieLibrary</string>
+    <string name="title_activity_internet_movie_search">InternetMovieSearchActivity</string>
+    <string name="goBtn">go</string>
+    <string name="cancelSearchBtn">cancel</string>
+    <string name="addQuesTV" >how would you like to add the new movie ?</string>
+    <string name="manualBtn">manually</string>
+    <string name="internetBtn">from internet</string>
+    <string name="subjectETHint">subject</string>
+    <string name="bodyETHint">body</string>
+    <string name="urlETHint">url</string>
+    <string name="TitleAddNewMovie">Add new movie</string>
+    <string name="TitleEditDetailsFor">"Edit details for "</string>
+    <string name="movieMustHaveATitle">movie must have a title</string>
+    <string name="movieTitleAlreadyExists">"movie title already exists: "</string>
+    <string name="connecting">connecting</string>
+    <string name="pleaseWait">please wait...</string>
+    <string name="areYouSureYouWantToDeleteThisMovie">Are you sure you want to delete this movie ?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="areYouSureYouWantToDeleteAllItems">Are you sure you want to delete all items ?</string>
+    <string name="deleteAllOMI">delete all items</string>
+    <string name="exitOMI">exit</string>
+    <string name="editMovieCMI">edit movie</string>
+    <string name="deleteMovieCMI">delete movie</string>
+    <string name="showURLBtn">show</string>
+    <string name="cancelDialogBtn">cancel</string>
+    <string name="imgFailedToLoadMsg">Image failed to load</string>
+    <string name="imgFailedToCaptureMsg">Image failed to capture</string>
+    <string name="shootNewPhotoToReplaceCurrentMsg">To replace current photo, shoot a new photo</string>
+    <string name="shareMovieCMI">share movie</string>
+    <string name="imdbIdNotFoundMessage">IMDB ID not found</string>
+    <string name="noInternetConnectionMsg">no internet connection</string>
+
+</resources>
